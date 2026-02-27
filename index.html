@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Blazhevski</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<header data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+    <div data-key="logo" class="logo">ANGEL BLAZHEVSKI</div>
+    <div class="lang-menu">
+        <div class="selected-lang">
+            <img src="https://flagcdn.com/w20/us.png" alt="English" id="current-flag">
+            <span id="current-lang-text">EN</span>
+            <i class='bx bx-chevron-down'></i>
+        </div>
+        <ul class="lang-dropdown">
+            <li onclick="updateLang('en', 'https://flagcdn.com/w20/us.png', 'EN', event)">
+                <img src="https://flagcdn.com/w20/us.png" alt="English"> English
+            </li>
+            <li onclick="updateLang('mk', 'https://flagcdn.com/w20/mk.png', 'MK', event)">
+                <img src="https://flagcdn.com/w20/mk.png" alt="Macedonian"> Македонски
+            </li>
+        </ul>
+    </div>
+    <a href="#contact"> <button data-key="nav-contact" class="contact-btn">Contact</button></a>
+</header>
+
+<main>
+    <div class="hero-image-side" data-aos="fade-right" data-aos-duration="1500">
+        <div class="image-wrapper">
+            <img src="images/015%20Angel%20Blazevski_pp.JPG" alt="Angel Blazhevski" class="profile-pic">
+            <div class="image-border"></div>
+        </div>
+    </div>
+
+    <div class="hero-text-side" data-aos="fade-left" data-aos-duration="1500">
+        <h1 class="desktop-title">SOFTWARE <span>ENGINEER</span></h1>
+        <h1 class="mobile-title">SOFT<span>ENG</span></h1>
+
+        <div class="location">
+            <p data-key="hero-loc">BASED<br>In<br>Macedonia</p>
+        </div>
+
+        <div class="bio-section">
+            <p data-key="hero-bio" class="bio">
+                Building scalable systems and intelligent AI solutions.
+            </p>
+        </div>
+    </div>
+</main>
+
+<section class="about-section">
+    <h1 data-key="about-title" class="about-title" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">About Me</h1>
+
+    <div class="bento-grid">
+        <div class="card intro" data-aos="fade-right"
+             data-aos-offset="300"
+             data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h2 data-key="card-intro-title" class="card-title">HI THERE, I'M ANGEL</h2>
+            <p data-key="card-intro-text" data-key="proj-pollution-desc" class="card-text">
+                I am a Computer Science student with strong skills in full-stack development, backend systems, and Machine Learning. I have experience building modern web applications using HTML, CSS, JavaScript, Spring Boot, .NET, and PHP, along with database design and system architecture.
+                <br><br>
+                I am currently a contributor to the Vezilka project, an AI-driven initiative focused on the Macedonian market. The project aims to simplify and improve workflows across multiple sectors by leveraging artificial intelligence and Macedonian language data. Through this experience, I have worked with dataset preparation, data processing, and AI-related development.
+                <br><br>
+                I have developed several real-world applications, including an Interview Management System built with .NET, a CyberSecurity platform using PHP and MySQL, a WordPress website for the Museum of the Macedonian Struggle, and an Air Pollution monitoring system.
+                <br><br>
+                I am passionate about building efficient, scalable software and continuously expanding my knowledge in modern software development and artificial intelligence.
+            </p>
+
+
+            <img src="images/gradient1.png" alt="" class="background-img">
+
+        </div>
+
+        <div class="card tech" data-aos="fade-left"
+             data-aos-offset="300"
+             data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <h2 data-key="card-tech-title" class="card-title">TECH STACK</h2>
+            <p data-key="card-tech-text" class="card-text">
+                My technical expertise includes full-stack web development, backend engineering, and database design. I work with HTML, CSS, and JavaScript to build responsive and modern user interfaces.
+                <br><br>
+                On the backend, I have experience with Spring Boot, .NET, and PHP, developing secure and scalable applications. I also work with MySQL and relational databases for efficient data management.
+                <br><br>
+                Additionally, I have experience in Machine Learning, dataset preparation, and AI-related development through my work on the Vezilka project.
+                <br><br>
+                I am comfortable using Git, GitHub, REST APIs, and modern development workflows to build reliable and maintainable software systems.
+            </p>
+
+
+            <img src="images/skills group.png" alt="" class="skills-group">
+        </div>
+
+        <div class="card time" data-aos="fade-up"
+             data-aos-duration="1500">
+            <h2 data-key="card-flex-title" class="card-title">VERY FLEXIBLE WITH COMMUNICATIONS & LOCATIONS</h2>
+
+            <p data-key="card-flex-text" class="card-text">Based in Macedonia, Skopje and open to remote work worldwide.</p>
+
+            <img src="images/gradient3&4.png" alt="" class="background-img">
+
+            <a href="#contact"><button data-key="card-flex-btn" class="btn"><i class='bx bx-send'></i> CONTACT ME</button></a>
+        </div>
+
+        <div class="card passion" data-aos="fade-up"
+             data-aos-duration="1500">
+            <h2 data-key="card-passion-title" class="card-title">PASSION FOR CODING</h2>
+            <p data-key="card-passion-text" class="card-text">
+                Solving problems and building solutions through code. Programming is my profession—it's my passion. I enjoy exploring new technologies and enhancing my skills.
+            </p>
+
+            <img src="images/gradient3&4.png" alt="" class="background-img">
+        </div>
+    </div>
+</section>
+
+
+<section class="projects-section">
+    <h3 data-key="projects-title" >My Projects</h3>
+
+    <div class="projects-grid">
+        <!-- Air Pollution -->
+        <a href="https://pollutionvisualizationapp.github.io/PollutionApp/" class="project-card">
+            <div class="project-content">
+                <h4>Air Pollution</h4>
+                <p data-key="proj-pollution-desc">An application for monitoring air quality and visualizing environmental data.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Macedonian Struggle Museum -->
+        <a href="https://user16.delovna.finki.ukim.mk/" class="project-card">
+            <div class="project-content">
+                <h4>Macedonian Struggle Museum</h4>
+                <p data-key="proj-museum-desc">Website/app with interactive content and educational features for the museum.</p>
+                <div class="project-tech">
+                    <span>WORDPRESS</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Interview Management System -->
+        <a href="https://github.com/angelblazhevski/InterviewManagementSystem" class="project-card">
+            <div class="project-content">
+                <h4>Interview Management System</h4>
+                <p data-key="proj-ims-desc">A system for managing interviews and candidates, including scheduling and position details.</p>
+                <div class="project-tech">
+                    <span>ASP.NET MVC</span>
+                    <span>C#</span>
+                    <span>LocalDB</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- CyberSecurity WebApp -->
+        <a href="#" class="project-card disabled-card">
+            <div class="project-content">
+                <h4>CyberSecurity WebApp</h4>
+                <p data-key="proj-cyber-desc">A web application for cybersecurity with various tools and simulations.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Vezilka Project -->
+        <a href="#" class="project-card disabled-card">
+            <div class="project-content">
+                <h4>Vezilka Project</h4>
+                <p data-key="proj-vezilka-desc">Currently fine-tuning a model using translated Macedonian datasets to English and preparing the data for model training.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>ML/AI</span>
+                    <span>Data Processing</span>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section" >
+    <div class="section-header" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
+        <h3 data-key="contact-title">Get In Touch</h3>
+        <p data-key="contact-subtitle">Have a project in mind or just want to ask me a question? Drop me a message</p>
+    </div>
+
+    <div class="contact-grid" data-aos="fade-zoom-in"
+         data-aos-easing="ease-in-back"
+         data-aos-delay="300"
+         data-aos-offset="0" data-aos-duration="1500">
+
+        <div class="info-card">
+            <h3>Contact info</h3>
+
+            <div class="contact-item">
+                <p>Email</p>
+                <a href="#">angel_blazevski1@hotmail.com</a>
+            </div>
+
+<!--            <div class="contact-item">-->
+<!--                <p>Phone</p>-->
+<!--                <a href="#">+1 (234) 567-890</a>-->
+<!--            </div>-->
+
+            <div class="contact-item">
+                <p>Location</p>
+                <a href="#">Skopje, Macedonia</a>
+            </div>
+
+            <div class="social-link">
+                <p>Contacy with me</p>
+                <a href="https://github.com/angelblazhevski">GitHub</a>
+                <a href="https://www.linkedin.com/in/angel-blazevski-403aa3351/">Linkedin</a>
+<!--                <a href="#">Twitter</a>-->
+            </div>
+
+        </div>
+
+        <div class="info-card">
+            <div class="info-card-content">
+                <h3>Send Message</h3>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your name" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="subject" required class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Your Message" required class="form-control"></textarea>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="message-btn">Send Message</button>
+
+                    <div class="success-message" id="successMessage">
+                        Message sent successfully! I'll get back to you soon.
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h3>©️Copyright 2026, Angel Blazhevski</h3>
+    <div class="box-icons">
+        <a href="https://github.com/angelblazhevski"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/angel-blazevski-403aa3351/"><i class='bx bxl-linkedin-square' ></i></a>
+    </div>
+</footer>
+
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "9c9UABgvXx_XjFIfd",
+        });
+    })();
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<div id="toast" class="toast">No live preview available for this project.</div>
+<button id="backToTop" class="back-to-top" title="Go to top">
+    <i class='bx bx-up-arrow-alt'></i>
+</button>
+<script src="app.js"></script>
+
+</body>
+</html>

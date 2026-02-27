@@ -85,7 +85,7 @@ const translations = {
         "nav-contact": "Contact",
         // "hero-title": "WEB <span>DEVELOPER</span>",
         "hero-loc": "<p>BASED<br>In<br>Macedonia</p>",
-        "hero-bio": 'WITH <span style="color: #76b0ab;"> OVER FOUR YEARS </span> OF REFINED EXPERTISE THIS DESIGNER HAS METICULOUSLY CRAFTED SEAMLESS AND INTUITIVE <span style="color: #842626;"> USER EXPERIENCES.</span>',
+        "hero-bio": 'Building <span style="color: #76b0ab;">scalable systems</span> and intelligent <span style="color: #76b0ab;">AI</span> solutions.',
         "about-title": "About Me",
         "card-intro-title": "HI THERE, I'M ANGEL",
         "card-intro-text": "I am a Computer Science student with strong skills in full-stack development, backend systems, and Machine Learning. I have experience building modern web applications using HTML, CSS, JavaScript, Spring Boot, .NET, and PHP, along with database design and system architecture.<br><br>I am currently a contributor to the Vezilka project, an AI-driven initiative focused on the Macedonian market. The project aims to simplify and improve workflows across multiple sectors by leveraging artificial intelligence and Macedonian language data. Through this experience, I have worked with dataset preparation, data processing, and AI-related development.<br><br>I have developed several real-world applications, including an Interview Management System built with .NET, a CyberSecurity platform using PHP and MySQL, a WordPress website for the Museum of the Macedonian Struggle, and an Air Pollution monitoring system.<br><br>I am passionate about building efficient, scalable software and continuously expanding my knowledge in modern software development and artificial intelligence.",
@@ -184,3 +184,4 @@ window.addEventListener('click', () => {
         langMenu.classList.remove('active');
     }
 });
+
